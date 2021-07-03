@@ -1,0 +1,14 @@
+.clubName {
+    position: relative;
+    padding: 14px 30px 12px 30px;
+    font-size: 14px;
+    color:#4b4846;
+    border:1px solid #dadada;
+    border-bottom: 1px dotted #dddddd;
+    background-color:#fbfbfb;
+
+}
+
+div {
+    display:block;
+}

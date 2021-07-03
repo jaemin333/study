@@ -1,0 +1,72 @@
+div {
+    display:block;
+}
+
+
+
+body {
+    background-color: #ccc;
+    word-break: break-all;
+    -ms-word-break: break-all;
+    letter-spacing: -0.050em;
+}
+
+
+.clubBox{
+    position: relative;
+    padding: 25px 30px 30px 30px;
+    border-bottom: 1px solid #dddddd;
+}
+
+
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.clubBox li .info.dark{
+    background-color: #a39895;
+}
+
+.iButton {
+    display: inline-block;
+    height: 18px;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #24272c;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #d4d1d1;
+}
+
+.clubBox .iButton {
+    position: absolute;
+    top: 8px;
+    right: 30px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.clubBox .cbInfo li {
+    float: left;
+    width: 220px;
+    margin: 4px 0 3px 0;
+    font-size: 12px;
+    color: black;
+}
+
+.cbClubName {
+    padding-bottom: 10px;
+}
+
+.cbClubName img{
+    width: 180px;
+}
